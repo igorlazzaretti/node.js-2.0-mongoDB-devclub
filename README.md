@@ -15,7 +15,7 @@ Nessa jornada imersiva, mergulhei de cabeça no universo back-end e desvendei os
 
 Dominando o Express.js, framework ágil e minimalista, aprendi a organizar minhas rotas com maestria. E para turbinar ainda mais o desenvolvimento, explorei o MongoDB Atlas, a solução de banco de dados na nuvem que me proporcionou flexibilidade e escalabilidade sem igual.
 
-Aqui esta meu caderno de anotações: <a src="https://igorlzzrtt.notion.site/Node-js-16157f4b771580f581e7d72f4e560650"> Caderno </a>
+Aqui esta meu caderno de anotações: [Caderno](https://igorlzzrtt.notion.site/Node-js-16157f4b771580f581e7d72f4e560650)
 
 
 ## Sobre o Professor
@@ -26,7 +26,8 @@ Sou ex-eletricista do Metrô de São Paulo e fiz a minha transição de carreira
 
 Hoje o meu propósito é ajudar o máximo de pessoas a transformarem suas vidas por meio da programação. <br><br>
 
-Linkedin: <a src="https://www.linkedin.com/in/rodolfomori/"> Rodolfo Mori </a>
+Linkedin: [Rodolfo Mori](https://www.linkedin.com/in/rodolfomori/)
+
 </div>
 
 
