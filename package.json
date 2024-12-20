@@ -1,0 +1,20 @@
+{
+  "name": "conhecendo-node-2.0-devclub",
+  "version": "1.0.0",
+  "description": "Curso de Node.js do DevClub, professor Rodolfo Mori.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "author": "Igor Dossin Lazzaretti",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.1.0"
+  }
+}
