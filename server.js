@@ -2,6 +2,9 @@
 import { PrismaClient } from '@prisma/client'
 // Modo atual de importar o express
 import express from 'express'
+// Importação do CORS para acesso do frontend
+import cors from 'cors'
+
 
 const prisma = new PrismaClient()
 
@@ -11,6 +14,13 @@ const prisma = new PrismaClient()
 const app = express()
 app.use(express.json())
 
+// Utilizando o CORS
+// Essa configuração permite que o qualquer frontend acesse a API
+app.use(cors())
+// Exemplo de cors para um frontend específico
+// app.use(cors('https:devclub.com.br'))
+
+// ROTAS
 // Read = GET
 app.get('/usuarios', async (req,res) => {
 
@@ -69,5 +79,9 @@ app.listen(3000)
  *  MongoDB Data
  *  User: idlazzaretti
  *  Password: E9lkaeYQXWkUAbas
+ *  Url base para o Frontend:
+ *  http://localhost:3000
  *
+ *  Para rodar esta aplicação, é necessário rodar o comando:
+ *  $ node --watch server.js
  */
